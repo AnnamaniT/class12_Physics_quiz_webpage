@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<version-1.0 add mathjax>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Quiz</title>
+  
+   
+  <script src="jquery.min.js"></script>
+  <!--<script src="popper.min.js"></script>-->
+  <script src="bootstrap.min.js"></script>
+  <!--  CSS Files -->
+  <link type='text/css' rel='stylesheet' href='style.css'/>
+<style>
+
+.imgRes{
+	width: 50%;
+   height: auto;
+}
+
+p{
+padding-left:25px;
+}
+</style>
+  <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['$latex', '$'], ['\\(', '\\)']]},
+    startup: {
+      ready: function () {
+        MathJax.startup.defaultReady();
+      }
+    }
+  }
+  </script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+		
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+  <section id="hero" class="container-fluid" >
+    <div class="hero-container">
+		<div id='container'>
+			<div><h3>Quiz IIT JEE Ques-Answers</h3><p type="button" class="tab btnDiv"><b>Solutions</b></p></div>
+			<div class ="ansPageDiv">
+				<div>Question1:	Five point charges, each of value +q Coulomb, are placed on five vertices of a regular hexagon of side l metre. The magnitude of the force on the point charge of value –q Coulomb placed at the centre of the hexagon is______ Newton<br><img class="imgRes" src = "IITJee1.jpg"><br><br></div>
+				<p></p>
+				<p>a) $\frac{5q^{2}}{4\pi \epsilon_{0}r^{2}}$</p>
+				<p>b) $\frac{3q^{2}}{4\pi \epsilon_{0}r^{2}}$ </p>
+				<p>c) $\frac{-5q^{2}}{4\pi \epsilon_{0}r^{2}}$</p>
+				<p>d) $\frac{q^{2}}{4\pi \epsilon_{0}r^{2}}$ <img src="tick.png"></p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>Among the five forces on the centre charge(-q), 2 pairs (four) of forces are cancelled because they are equal in magnitude and opposite in direction. The resultant force is shown in figure <br><img class="imgRes" src = "IITJee1Ans.jpg"><br><br></p><br>
+					<p>As all charges are equal. The magnitude of forces acting on the charge at O due to charges placed at 1, 2, 3, 4, 5 are equal<br>
+					$\left | F_{1} \right |=\left | F_{2} \right |=\left | F_{3} \right |=\left | F_{4} \right |=\left | F_{5} \right |$<br>$=\frac{q^{2}}{4\pi \epsilon_{0}r^{2}}$<br>
+					F1 =-F4 and F2 = - F5 so they cancels out and only F3 is remaining<br>
+					Net force (is the vector sum of all forces) = $\frac{q^{2}}{4\pi \epsilon_{0}r^{2}}$<br></p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question2: Two small balls having equal positive charges Q (coulomb) on each are suspended by two insulating strings of equal length L (metre) from a hook fixed to a stand. The whole set-up is taken in satellite into space where there is no gravity. The angle between the two strings is_____ and the tension in each string is _____ Newtons  </div>
+				<p></p>
+				<p>a) $ 0^{\circ}, \frac{Q^{2}}{16\pi\epsilon_{0}L^{2}}$ </p>
+				<p>b) $90^{\circ}, \frac{Q^{2}}{4\pi\epsilon_{0}L^{2}}$</p>
+				<p>c) $ 180^{\circ}, \frac{Q^{2}}{16\pi\epsilon_{0}L^{2}}$<img src="tick.png"></p>
+				<p>d) $0^{\circ} < \theta < 180^{\circ}, \;  \frac{Q^{2}}{4\pi\epsilon_{0}L^{2}}$</p></p>
+				
+				<div class="tabcontent">
+					<p>Solution<br><img class="imgRes" src = "IITJeeQ2Sol1.jpg"><br><br></p>
+					<p>From free body diagram,<br>
+					$T cosθ = mg = 0 $   (as g = 0, mg = 0)<br>
+					$T sinθ  = F_{E} =\frac{Q^{2}}{4\pi\epsilon_{0}r^{2}}$  <br>
+					$θ = 90° ---(Tcosθ = 0)$ <br>
+					The angle between the two strings = $2\theta = 180^{\circ} $<br>
+					$ T =\frac{Q^{2}}{4\pi \epsilon_{0}\left ( 2L \right )^{2}} = \frac{Q^{2}}{16\pi \epsilon_{0}L^{2}}$
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question3: A point charge q moves from point P to point S along the path PQRS (as shown in the fig.) in a uniform electric field E pointing parallel to the positive direction of x axis.<br><img class="imgRes" src = "IITJee3.jpg"> The coordinates of the points P,Q,R and S are (a,b,0), (2a,0,0),(a,-b,0),(0,0,0) respectively. The work done by the expression </div>
+				<p></p>
+				<p>a) Zero </p>
+				<p>b) –qEa<img src="tick.png"> </p>
+				<p>c) +qEa</p>
+				<p>d) qEb </p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>As the field $\vec E$ is uniform, so E is constant at every point. <br>
+					As E is directed parallel to x axis, so $\vec{E} = E\hat{i}$  <br> 
+					Work done $w = \int \left ( F.dr \right )$ <br>
+					$\vec{F} = q\vec{E}$ <br>
+					$ w = \int qE\hat{i}\cdot \left ( \hat{i}dx+  \hat{j}dy+ \hat{k}dz\right )$<br>
+					$= qE\int dx$ <br>
+					for the path PQRS,
+					$qE\int_{a}^{2a}dx+\int_{2a}^{a}dx+\int_{a}^{0}dx$
+					$=qE\left [ 2a-a+a-2a+0-a \right ]$
+					$= -qEa$ 
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question4: Consider an electric field$\vec E = E_{0}\hat x$ where $E_{0}$ is a constant. The flux through the shaded area (as shown in the fig) due to this field is <br><img class="imgRes" src = "IITJee4.jpg"><br><br> </div>
+				<p></p>
+				<p>a) $2E_{0}^{2}$</p>
+				<p>b) $\sqrt 2E_{0}a^{2}$</p>
+				<p>c) $ E_{0}a^{2}$<img src="tick.png"></p>
+				<p>d) $\frac{E_{0}a^{2}}{\sqrt2}$</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p><br><img class="imgRes" src = "IITJeeQ4Sol1.jpg"><br><br>Given, $\vec E = E_{0}x$<br>
+					This shows that the electric field acts along + x direction and is a constant.<br> 
+					The area vector makes an angle of 45° with the electric field. <br>
+					Area of the shaded portion = $ a \times \sqrt 2a = \sqrt 2 a^{2}$ <br>
+					The electric flux through the shaded portion <br>
+					$ \phi = E\cdot A $ <br>$= EA\cos 45 $<br>$= E_{0} \sqrt 2 a^{2}\left ( \frac{1}{\sqrt 2} \right )$<br>$ = E_{0} a^{2}$
+					</p>
+				</div>				
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question5: A few electric field lines for a system of two charges Q1 and Q2 fixed at two different points on the x axis are shown in the figure. These lines suggest that
+				<p><img class="imgRes" src = "IITJee5.jpg"><br></p></div>
+				<p></p>
+				<p>a) |Q1|=|Q2| </p>
+				<p>b) |Q1|<|Q2|</p>
+				<p>c) At a finite distance to the left of Q1 the electric field is zero</p>
+				<p>d) At a finite distance to the right of Q2 the electric field is zero<img src="tick.png"></p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>Q1 is positive as electric field lines are emerging from it. And Q2 is negative as electric field lines are terminating.<br>
+					Number of Electric field lines emerging from Q1  are more than the number of lines terminating at Q2<br>
+					So, Q1 is a positive charge of higher magnitude and Q2 is a negative charge of smaller magnitude.<br>
+					Hence, the point at which the electric field is zero is on the right of the negative charge Q2<br>
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question6: A spherical metal shell A of radius $R_{A}$ and a solid metal sphere B of radius $R_{B} ( &lt; R_{A})$ are kept far apart and each is given charge ‘+Q’. Now they are connected by a thin metal wire. Then
+				</div>
+				<p></p>
+				<p>a) $ QA &gt; QB$ </p>
+				<p>b) $\frac{\sigma_{A}}{ \sigma_{B}} =\frac{ R_{B}}{R_{A}}$</p>
+				<p>c) $E_{A}^{surface}&lt;E_{B}^{surface}$ </p>
+				<p>d) All the options are correct<img src="tick.png"></p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>
+					Electric field inside a spherical metallic shell with charge on the surface is always zero. <br>
+					When the shells are connected with a thin metal wire then electric potentials will be equal, say V <br>
+					$\therefore   \frac{1}{4\pi \epsilon_{0}}\frac{Q_{A}}{R_{A}}=\frac{1}{4\pi \epsilon_{0}}\frac{Q_{B}}{R_{B}}$<br>
+					$\frac{Q_{A}}{R_{A}}=\frac{Q_{B}}{R_{B}}$<br>
+					$\frac{Q_{A}}{Q_{B}}=\frac{R_{A}}{R_{B}}$<br>
+					As $ R_{A} > R_{B}$ therefore $Q_{A} > Q_{B}$ option [a] is correct.<br>
+					$ \sigma_{A} = \frac{Q_{A}}{4\pi \epsilon_{0}R_{A}^{2}} and \sigma_{B} = \frac{Q_{B}}{4\pi \epsilon_{0} R_{B}^{2}}$<br>
+					$\sigma_{A} = \frac{Q_{A}}{4\pi \epsilon_{0}R_{A}^{2}}$<br>
+					$\sigma_{B} = \frac{Q_{B}}{4\pi \epsilon_{0}R_{B}^{2}}$<br>
+					$\frac{\sigma_{A}}{\sigma_{B}} = \frac{Q_{A}}{Q_{B}}\frac{R_{B}^{2}}{R_{A}^{2}}$<br>
+					$=\frac{R_{A}}{R_{B}}\frac{R_{B}^{2}}{R_{A}^{2}}=\frac{R_{B}}{R_{A}}$<br>
+					$\frac{\sigma_{A}}{\sigma_{B}}=\frac{R_{B}}{R_{A}}$  Option (b) is also correct<br>
+					Electric fields on the surface of shell and sphere are <br>
+					$E_{A}= \frac{\sigma_{A}}{\epsilon_{0}}$<br>
+					$E_{B}= \frac{\sigma_{B}}{\epsilon_{0}}$<br>
+					$\frac{E_{A}}{E_{B}} = \frac{\sigma_{A}}{\sigma_{B}} &lt; 1$<br>
+					$\therefore E_{A} &lt; E_{B} $<br>
+					Option (c) is also correct
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question7: Let $E_{1}(r),E_{2}(r) and E_{3}(r)$ be the respective electric field at a distance r from a point charge Q, an infinitely long wire with constant linear charge density $\lambda$ and an infinite plane with uniform surface charge density $\sigma$. If $ E_{1}(r_{0})=E_{2}(r_{0})=E_{3}(r_{0})$ at a given distance $r_{0}$, then   
+				</div>
+				<p></p>
+				<p>a) $Q=4\sigma \pi r_{0}^{2}$ </p>
+				<p>b) $r_{0}=\frac{\lambda}{2 \pi \sigma}$</p>
+				<p>c) $E_{1}\left (\frac{r_{0}}{2}  \right ) = 2E_{2}\left (\frac{r_{0}}{2}  \right )$ <img src="tick.png"> </p>
+				<p>d) $E_{2}\left (\frac{r_{0}}{2}  \right ) = 4E_{3}\left (\frac{r_{0}}{2}  \right )$</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p> Electric field at a distance r from a point charge Q <br>
+					$E_{1}(r) = \frac{Q}{4\pi \epsilon_{0}r^{2}}$<br><br>
+					
+					Electric field at r due to a long wire with linear charge density $\lambda$<br>
+					$E_{2}(r) = \frac{2\lambda}{4\pi \epsilon_{0}r}$<br><br>
+					
+					Electric field at r due to an infinite plane with uniform surface charge density $\sigma$ <br>
+					$ E_{3}(r) = \frac{\sigma}{2 \epsilon_{0}}$<br><br>
+					
+					Given, $ E_{1}(r_{0})=E_{2}(r_{0})=E_{3}(r_{0})$ <br>
+					Considering $E_{1}(r_{0} and E_{3}(r_{0})$<br>
+					$\frac{Q}{4\pi \epsilon_{0}r^{2}}=\frac{\sigma}{2 \epsilon_{0}}$<br>
+					$ Q=2\pi \sigma r_{0}^{2} ---(1)$ <br> (Option a is not correct)   <br><br>
+					
+					Considering, $E_{2}(r_{0} and E_{3}(r_{0})$<br>
+					$\frac{2\lambda}{4\pi \epsilon_{0}r} = \frac{\sigma}{2 \epsilon_{0}}$<br>
+					$ r_{0}=\frac{\lambda}{\pi \sigma} ---=(2)$ <br> (option b is not correct)<br><br>
+					
+					Considering, $E_{1}(r_{0} and E_{2}(r_{0})$<br>
+					$\frac{Q}{4\pi \epsilon_{0}r^{2}} =\frac{2\lambda}{4\pi \epsilon_{0}r} $<br>
+					$Q = 2 \lambda r_{0}----(3)$ <br><br>
+					
+					$E_{1} (\frac{r_{0}}{2}) = \frac{Q}{4\pi \epsilon_{0}(\frac{r_{0}}{2})^{2}} $<br>
+					Substituting value of Q from (3)<br>
+					$E_{1} (\frac{r_{0}}{2})=\frac{ 2 \lambda r_{0}}{4\pi \epsilon_{0}(\frac{r_{0}}{2})^{2}}$<br>
+					$=\frac{ 2 \lambda}{\pi \epsilon_{0}r_{0}}$<br>
+					$ E_{2} (\frac{r_{0}}{2}) = \frac{2 \lambda}{4\pi \epsilon_{0}\frac{r_{0}}{2}}= \frac{\lambda}{\pi \epsilon_{0}r_{0}}$<br>
+					$\therefore E_{1} (\frac{r_{0}}{2}) = 2E_{2} (\frac{r_{0}}{2})$ (option c is correct)<br><br>
+					$E_{2} (\frac{r_{0}}{2}) = \frac{\lambda}{\pi \epsilon_{0}r_{0}}$<br>
+					$E_{3}(\frac{r_{0}}{2}) = \frac{\sigma}{2 \epsilon_{0}}$ <br> (option d is not correct)<br>
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question8: Charges Q, 2Q and 4Q are uniformly distributed in three dielectric solid spheres 1, 2and 3 of radii $\frac{R}{2}, R, 2R$ respectively, as shown in figure. If magnitudes of the electric fields at point P at a distance R from the centre of spheres 1, 2 and 3 are $E_{1}, E_{2} and E_{3} $respectively, then
+				
+				<p><img class="imgRes" src = "IITJee8.jpg"><br></p></div>
+				<p></p>
+				<p>a) $E_{1}> E_{2} > E_{3}$ </p>
+				<p>b) $E_{3}> E_{1} > E_{2}$</p>
+				<p>c) $E_{2}> E_{1} > E_{3}$<img src="tick.png"></p>
+				<p>d) $E_{3}> E_{2} > E_{1}$</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>For sphere 1 the point P is outside the sphere.<br>
+					$ \therefore E_{1} = \frac{kQ}{R^{2}}$<br>
+					For sphere 2 the point P is on the sphere<br>
+					$\therefore E_{2} = \frac{k2Q}{R^{2}}=\frac{2kQ}{R^{2}}$<br>
+					For sphere 3 the point P is inside the sphere<br>
+					$\therefore E_{3} = \frac{k4Q}{\left ( 2R \right )^{2}}=\frac{kQ}{2R^{2}}$<br>
+					$ \Rightarrow E_2>E_1 >E_3$<br>
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question9: Four charges Q1, Q2, Q3 and Q4 of same magnitude are fixed along the x axis      -2a, -a, a and +2a, respectively. A positive charge q is placed on the positive y-axis at a distance b > 0 (as shown in the fig.).<p><img class="imgRes" src = "IITJeeQ10a.jpg"><br></p> Four options of the signs of these charges are given in List I. The direction of the forces on the charge q is given in List II. Match List I with List II and select the correct answer using the code given below the lists.
+				 </div>
+				<div class="tableDiv"><table>
+				<tr>
+					<th>code</th>
+					<th>List I</th>
+					<th> code </th>
+					<th>List II</th>
+				</tr>
+				<tr>
+				    <td>P</td>
+					<td> Q1,Q2,Q3,Q4 – all positive </td>
+					<td>1</td>
+					<td>+x </td>
+					</tr>
+				<tr>
+					<td>Q</td>
+					<td> Q1,Q2- positive Q3,Q4 - negative </td>
+					<td>2</td>
+					<td>-x </td>
+				</tr>
+				<tr>
+					<td>R</td>
+					<td> Q1, Q4- positive Q2,Q3 - negative </td>
+					<td>3</td>
+					<td>+y </td>
+				</tr>
+				<tr>
+					<td>S</td>
+					<td> Q1,Q3- positive Q2,Q4 - negative </td>
+					<td>4</td>
+					<td>-y </td>
+				</tr>
+				</table>
+				</div>
+				<p></p>
+				<p>a) P-3, Q-1, R-4, S-2<img src="tick.png"></p>
+				<p>b) P-4, Q-2, R-3, S-1</p>
+				<p>c) P-3, Q-1, R-2, S-4</p>
+				<p>d) P-4, Q-2, R-1, S-3</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>For sphere 1 the point P is outside the sphere.<br>
+					Case P - Q1,Q2,Q3,Q4 – all positive<br>
+					Resultant force is in +y direction (3)<br>
+					<p><img class="imgRes" src = "IITJeeQ10aSol1.jpg"><br></p></p>
+					<p>Case Q   - Q1,Q2- positive Q3,Q4 – negative<br>
+					Resultant force is in +x direction (1)<br>
+					<p><img class="imgRes" src = "IITJeeQ10aSol2.jpg"><br></p></p>
+					<p>Case R - Q1, Q4- positive Q2,Q3 – negative<br>
+					Resultant force is in -y direction (4)<br>
+					<p><img class="imgRes" src = "IITJeeQ10aSol3.jpg"><br></p></p>
+					<p>Case S - Q1,Q3- positive Q2,Q4 – negative <br>
+					Resultant force is in -x direction (2)<br>
+					<p><img class="imgRes" src = "IITJeeQ10aSol4.jpg"><br></p></p>
+				</div>
+			</div>
+			
+			<div class ="ansPageDiv">
+				<div>Question10: A charged particle having charge q and speed V is moving in x-y plane in x direction. It enters in a region of uniform electric field directed in y direction and extended up to x= 0 to x = d. then what is equation of path in terms of d<p><img class="imgRes" src = "IITJeeQ12.jpg"><br></p></div>
+				
+				<p>a) $ y = \frac{1}{2}\frac{qEd^{2}}{mV^{2}}$<img src="tick.png"></p>
+				<p>b) $ y = \frac{qEd^{2}}{mV^{2}}$</p>
+				<p>c) $ y = \frac{2}{3}\frac{qEd^{2}}{mV^{2}}$ </p>
+				<p>d) $ y = \frac{2qEd^{2}}{mV^{2}}$</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p><img class="imgRes" src = "IITJeeQ12.jpg"><br></p>
+					<p>$F = qE $<br>
+					$a = \frac{qE}{m}$<br>
+					$x = V t$<br>
+					$y = \frac{1}{2}at^{2}<br>
+					= \frac{1}{2}\frac{qEx^{2}}{mV^{2}}$<br>
+					$= \frac{1}{2}\frac{qEd^{2}}{mV^{2}} (at \;  x = d)$
+					<br>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+    </div>
+  </section><!-- End Hero -->
+
+ 
+
+<script src="main.js"></script>
+
+	
+</body>
+
+</html>

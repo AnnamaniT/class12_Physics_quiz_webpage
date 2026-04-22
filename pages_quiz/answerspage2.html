@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<version-1.0 add mathjax>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>Quiz</title>
+  
+<style>
+.imgRes{
+	width: 50%;
+   height: auto;
+}
+
+p{
+padding-left:25px;
+}
+</style>
+  
+  
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <!--  CSS Files -->
+  <link type='text/css' rel='stylesheet' href='style.css'/>
+<style>
+.btnDiv{
+padding:5px 5px;
+background-color:#123456;
+color:white;
+text-decoration: underline;
+}
+
+.tabcontent{
+padding:10px 10px;
+background-color:#123456;
+color:white;
+}
+
+.ansPageDiv p{
+padding-left:25px;
+}
+</style>
+	
+  <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['$latex', '$'], ['\\(', '\\)']]},
+    startup: {
+      ready: function () {
+        MathJax.startup.defaultReady();
+      }
+    }
+  }
+  </script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+		
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+  <section id="hero" class="container-fluid" >
+    <div class="hero-container">
+		<div id='container'>
+			<div><h3>Quiz 2 Answers</h3><p type="button" class="tab btnDiv"><b>Solutions</b></p></div>
+			<div class ="ansPageDiv">
+				<div >Question1:If a body is negatively charged, then it has  </div>
+				<p></p>
+				<p>a) Excess of electrons <img src="tick.png"></p>
+				<p>b) Excess of protons</p>
+				<p>c) Deficiency of electrons</p>
+				<p>d) Deficiency of neutrons</p>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question2: Quantization of charge implies </div>
+				<p></p>
+				<p>a) Charge cannot be destroyed </p>
+				<p>b) Charge exists on particles</p>
+				<p>c) There is minimum permissible charge on a particle</p>
+				<p>d) All charges are integral multiple of basic unit of charge of an electron <img src="tick.png"></p></p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>Experimentally it is established that all free charges are integral multiples of a basic unit of charge denoted by e. Thus charge q on a body is always given by <br>q = ne <br>where n is any integer, positive or negative. This basic unit of charge is the charge that an electron or proton carries
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question3: A charge of $2 \times 10^{-7} C$ is acted upon by a force of 0.1N. Determine the distance to the other charge of $4.5 \times 10^{-7} C$, both the charges are in vacuum </div>
+				<p></p>
+				<p>a) 0.03 </p>
+				<p>b) 0.05 </p>
+				<p>c) 0.07</p>
+				<p>d) 0.09 <img src="tick.png"></p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>We know, $F = \frac {k q_{1}q_{2}}{r^{2}}$ <br>substituting q1, q2 and F,<br> We get r = 0.09m.
+				</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question4: Coulomb is the unit of which quantity? </div>
+				<p></p>
+				<p>a) Field strength</p>
+				<p>b) Charge<img src="tick.png"></p>
+				<p>c) Permittivity</p>
+				<p>d) Force  </p>
+				
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question5: The two charges q1 and q2 are kept at a distance of r. the force on the charges with respect to each other is F1 and F2. Then at equilibrium</div>
+				<p></p>
+				<p>a) F1 = F2 </p>
+				<p>b) F1 = -F2<img src="tick.png"></p>
+				<p>c) F1 = F2 = 0</p>
+				<p>d) F1 and F2 are not equal in magnitude</p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>At equilibrium, the net force is zero. Therefore F2 + F1 = 0
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question6: Two point charges +4q and +q are placed 30 cm apart. Where should be a third charge kept on the line joining the two charges such that the third charge is at equilibrium?</div>
+				<p></p>
+				<p>a) 15 cm from the charge q </p>
+				<p>b) 7.5 cm from the charge q</p>
+				<p>c) 20 cm from the charge 4q <img src="tick.png"></p>
+				<p>d) 5 cm from the charge q</p>
+				
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p><img class="imgRes" src = "Q16Sol.jpg"><br><br>
+					The electric field will be zero at a point where the forces exerted by charges 4q and q on the third charge q0 are equal and opposite. Let this point be at a distance x from q and (30-x) from 4q.<br> If F1 is force due to 4q and F2 due to q then<br> F1 = F2 <br>$\frac{1}{4\pi \epsilon_{0}} \frac{4qq_{0}}{\left ( 30-x \right )^{2}} = \frac{1}{4\pi \epsilon_{0}}  \frac{qq_{0}}{x^{2}}$ <br>Calculating, we  get  x = 10 cm and <br>(30 - x) =20 cm
+
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question7: Two charges q and -3q are placed on x axis separated by distance d. where should a third charge 2q be placed such that it will not experience any force</div>
+				<p></p>
+				<p>a) (d+√3d)/2 <img src="tick.png"></p>
+				<p>b) (d-√3d)/2</p>
+				<p>c) (d-3d)/2 </p>
+				<p>d) (d+3d)/2</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p> Since like charges attract repel each other while unlike charges attract each other, if the third charge is placed in between the two charges, the repulsive force due to the positive charge and the attractive force due to the negative charge will be in the same direction and therefore, the charge will not be in equilibrium. Therefore, we will place the charge at a distance x from the charge q in a direction away from the charge −3q as shown below.
+					<img class="imgRes" src = "Q17q.jpg"><br><br>
+					<br>Force on the charge 2q by the charge q is $\frac{k q 2q}{x^{2}}$
+					<br>Force on the charge 2q by the charge 3q is $\frac{k \: 2q \: 3q}{\left ( d+x \right )^{2}}$<br>For equilibrium, F=0<br>
+					$\frac{k q 2q}{x^{2}}$ = $\frac{k \: 2q \: 3q}{\left ( d+x \right )^{2}}$<br>
+					$ x = \frac{d}{\left ( \sqrt{3}-1 \right )^{2}}$ <br> Rationalizing we get <br>
+					$x = \frac{d \left ( \sqrt{3}+1 \right )}{\left ( \sqrt{3}-1 \right ) \left ( \sqrt{3}+1 \right )} = \left ( \frac{d+\sqrt{3}d}{2} \right )$<br>
+
+					</p>
+				</div>
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question8: If a charge q is placed at the centre of the line joining two equal charges Q such that the system is in equilibrium then the value of q is</div>
+				<p></p>
+				<p>a) –Q/4  <img src="tick.png"></p>
+				<p>b) Q/4</p>
+				<p>c) –Q/2</p>
+				<p>d) Q/2</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>At equilibrium, net force will be zero, hence $\frac{k q Q}{\frac{r}{2}^{2}}+\frac{kQ^{2}}{r^{2}}=0$ <br>Calculating we get,<br>
+					4q = -Q or q = -Q/4
+					</p>
+				</div>
+				
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question9: The electrostatic force between two point charges is directly proportional to the</div>
+				<p></p>
+				<p>a) Sum of the charges</p>
+				<p>b) Distance between the charges</p>
+				<p>c) Product of the charges<img src="tick.png"</p>
+				<p>d)Square of the distance between the charges </p>
+				
+			</div>
+			<div class ="ansPageDiv">
+				<div>Question10: Three equal charges (q) are placed at corners of an equilateral triangle of side 'a'. The force on any charge is</div><p></p>
+				
+				<p>a) Zero</p>
+				<p>b) $\sqrt{3}\left ( \frac{kq^{2}}{a^{2}} \right )$<img src="tick.png"></p>
+				<p>c) $\left ( \frac{kq^{2}}{\sqrt{3}a^{2}} \right )$ </p>
+				<p>d) $3\sqrt{3}\left ( \frac{kq^{2}}{a^{2}} \right)$</p>
+				<div class="tabcontent">
+					<p>Solution</p><br>
+					<div><img class="imgRes" src = "Q20Sol100.jpg"></div><br><br>
+					<p>Let us take point A, <br>Forces at A due to Charges at B and C are
+					$F_{AB}= \frac{kq^{2}}{a^2}$<br>
+					$F_{AC}= \frac{kq^{2}}{a^2}$<br>
+					$F_{net} = F_{AB} + F_{AC}$<br>(Added by Vector addition)<br>
+					$F_{net}=$<br>$\sqrt{F_{AB}^{2}+ F_{AC}^{2}+2 F_{AB}} F_{AC} \cos 60$<br>
+					Calculating we get,<br>
+					$F_{net} = \sqrt{3} \; \frac{kq^{2}}{a^2}$<br>
+
+					</p>
+				</div>
+			</div>
+
+		</div>
+    </div>
+  </section><!-- End Hero -->
+
+<script src="main.js"></script>
+
+	
+</body>
+
+</html>

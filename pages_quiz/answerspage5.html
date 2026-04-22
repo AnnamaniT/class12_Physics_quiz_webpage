@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<version-1.0 add mathjax>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <title>Quiz</title>
+  
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <!--  CSS Files -->
+  <link type='text/css' rel='stylesheet' href='style.css'/>
+<style>
+.imgRes{
+	width: 50%;
+   height: auto;
+}
+
+p{
+padding-left:25px;
+}
+</style>
+	
+  <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['$latex', '$'], ['\\(', '\\)']]},
+    startup: {
+      ready: function () {
+        MathJax.startup.defaultReady();
+      }
+    }
+  }
+  </script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+		
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+  <section id="hero" class="container-fluid" >
+    <div class="hero-container">
+		<div id='container'>
+			<div><h3>Quiz 5 Answers</h3><p type="button" class="tab btnDiv"><b>Solutions</b></p></div>
+			<div class="ansPageDiv">
+				<div>Question1: If an object is positively charged, theoretically the mass of the object ______</div>
+				<p></p>
+				<p>a) Increases slightly by a factor of $9.11\times 10^{-31}$ kg</p>
+				<p>b) Decreases slightly by a factor of $9.11\times10^{-31}$ kg <img src="tick.png"></p>
+				<p>c) Remains the same (lost)</p>
+				<p>d) May increase or decrease</p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p>If an object is positively charged it loses some of its electrons. The mass of an electron is $9.11\times10^{-31}$ kg. So, if a positively charged body loses ‘n’ number of electrons, it mass decrease by the amount<br>$n\times 9.11\times 10^{-31}kg.$
+					</p>
+				</div>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question2: A man tried to hold a brass rod by hand and induce static electricity in it by friction. He failed to induce static electricity. Why did he fail?</div>
+				<p></p>
+				<p>a) Static electricity is induced only on insulators while brass is conducting </p>
+				<p>b) The induced static charge flew through his hand and body to the ground<img src="tick.png"></p>
+				<p>c) The static charge was not produced at all</p>
+				<p>d) It is not possible to induce static electricity by friction </p></p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p> The human body is a conductor of electricity and hence the charge produced by friction, flew through his body to the ground. We can tackle the problem simply by holding the brass rod with the help of some insulated holder.
+					</p>
+				</div>
+			</div>
+			<div class="ansPageDiv">
+				<div>Question3: Two equally charged spheres attract each other. Now if they touch each other then they will _____ </div>
+				<p></p>
+				<p>a) Attract each other with the same amount of force </p>
+				<p>b) Repel each other </p>
+				<p>c) Attract each other with less amount of force</p>
+				<p>d) Don’t attract or repel<img src="tick.png"></p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p>The two spheres are oppositely charged by the same amount. So if they come in contact, both of their charges are neutralized. So they become uncharged and don’t attract or repel each other.
+					</p>
+				</div>
+			</div>
+			<div class="ansPageDiv">
+				<div>Question4: Which among the following cannot be the charge of a charged body? </div>
+				<p></p>
+				<p>a) $4.8 \times 10^{-14}$ Coulomb</p>
+				<p>b) $6.4 \times 10^{-15}$ Coulomb</p>
+				<p>c) $5 \times 10^{-19}$ Coulomb<img src="tick.png"></p>
+				<p>d) $3.2 \times 10^{-10}$ Coulomb </p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p>Charge of a body must be an integral multiple of charge of an electron(according to quantization of charges). $5 \times 10^{-14}$ is not an integral multiple of $1.602 \times 10^{-19} \; Coulomb$ (which is the charge of an electron). 4.8, 6.4, 3.2 are all integral multiples of 1.6.
+					</p>
+				</div>
+			</div>
+			<div class="ansPageDiv">
+				<div>Question5: A charge of magnitude q is divided into two parts such that force between resulting two charges is maximum when separated through some distance r. The division of charges would be</div>
+				<p></p>
+				<p>a) 3q/8 , 5q/8 </p>
+				<p>b) 2q/4 , 2q/4</p>
+				<p>c) q/2 , q/2<img src="tick.png"></p>
+				<p>d) 3q/6 , 3q/6</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>Suppose charge q is divided into two parts such that one part of charge is $q_{1}$ then second part is $(q−q_{1})$.<br>
+					Therefore $F=\frac{1}{4\pi \epsilon_{0}}\; \frac{q_{1}\left (q-q_{1}  \right )}{r^{2}}$<br>
+					For F to be maximum $\frac{dF}{dq_{1}}=0$<br>
+					$\frac{dF}{dq_{1}} = \frac{d}{dq_{1}}\left ( \frac{1}{4\pi \epsilon_{0}}\frac{\left ( qq_{1}- q_{1}^{2}\right )}{r^{2}} \right )$<br>
+					$ =\frac{1}{4\pi \epsilon_{0}r^{2}}\left ( q-2q_{1} \right )=0$<br>
+					$\therefore q_{1}=\frac{q}{2}$
+					</p>
+				</div>
+			</div>
+			<div class="ansPageDiv">
+				<div>Question6: Ten equal charges are situated at the corners of the 10 sided polygon of side a. What is the net force on the charge Q at the centre</div>
+				<p></p>
+				<p>a) Zero<img src="tick.png"></p>
+				<p>b) $\frac{5qQ}{4\pi \epsilon_{0}a^{2}}$</p>
+				<p>c)$\frac{10qQ}{4 \pi \epsilon_{0}a^{2}}$ </p>
+				<p>d) None of the given options</p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p>Due to symmetry all force due to charges cancel each other at centre
+					</p>
+				</div>
+			</div>
+			<div class="ansPageDiv">
+				<div>Question7: Read the two statements below and select the correct options<br>(A) The force with which two charges interact is not changed by the presence of the other charges<br>(B)Electric force experienced by the charge particle due to number of fixed point charges is vector resultant of the forces experience due to individual charges</div>
+				<p></p>
+				<p>a) A and B both are correct <img src="tick.png"></p>
+				<p>b) Only A is correct </p>
+				<p>c) Only B is correct </p>
+				<p>d) A and B both are wrong</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question8: A positively charged rod is brought close to one end of a neutral metallic plate. What type of charge is induced on the closest side of the plate?</div>
+				<p></p>
+				<p>a) Positive </p>
+				<p>b) Negative<img src="tick.png"></p>
+				<p>c) Neutral</p>
+				<p>d) More information about the type of metal is required</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question9: Which one of the following is the unit of electric field? (C – Coulomb, N-Newton, V-Volts)</div>
+				<p></p>
+				<p>a) C</p>
+				<p>b) N</p>
+				<p>c) V</p>
+				<p>d) N/C <img src="tick.png"></p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question10: Two identical metallic spheres of exactly equal masses are taken. One is given a positive charge of Q coulombs and the other is given an equal negative charge. Their masses after charging </div>
+				<p></p>
+				<p>a) Remain same</p>
+				<p>b) The sphere which is given positive charge weighs more</p>
+				<p>c) The sphere which is given negative charge weighs more <img src="tick.png"></p>
+				<p>d) The sphere which is given negative charge weighs less</p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p>A body is positively charged means it loses some of its electrons and if it is charged negatively implies that it gained some(n) electrons. So the mass of negatively charged body gains a weight by the amount $n\times9.11\times 10^{-31}kg$
+					</p>
+				</div>
+			</div>
+
+		</div>
+    </div>
+  </section><!-- End Hero -->
+
+<script src="main.js"></script>
+
+	
+</body>
+
+</html>

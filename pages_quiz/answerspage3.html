@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<version-1.0 add mathjax>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <title>Quiz</title>
+  
+   
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <!--  CSS Files -->
+  <link type='text/css' rel='stylesheet' href='style.css'/>
+<style>
+
+.imgRes{
+	width: 50%;
+   height: auto;
+}
+
+p{
+padding-left:25px;
+}
+</style>
+	
+  <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['$latex', '$'], ['\\(', '\\)']]},
+    startup: {
+      ready: function () {
+        MathJax.startup.defaultReady();
+      }
+    }
+  }
+  </script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+		
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+  <section id="hero" class="container-fluid" >
+    <div class="hero-container">
+		<div id='container'>
+			<div><h3>Quiz 3 Answers</h3><p type="button" class="tab btnDiv"><b>Solutions</b></p></div>
+			<div class="ansPageDiv">
+				<div>Question1: Relative permittivity $\left ( \epsilon_{r} \right )$ in terms of permittivity of free space $\left ( \epsilon_{0} \right )$and permittivity of medium$\left ( \epsilon_{m} \right )$</div>
+				<p></p>
+				<p>a) $\epsilon_{0} \epsilon_{m}$</p>
+				<p>b) $\epsilon_{0}  /\epsilon_{m}$ </p>
+				<p>c) $\epsilon_{m} /  \epsilon_{0}$<img src="tick.png"></p>
+				<p>d) $\left ( \epsilon_{0} \epsilon_{m}\right ) ^{2}$ </p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question2: The value of k in coulomb's law depends upon </div>
+				<p></p>
+				<p>a) magnitude of charges </p>
+				<p>b) distance between charges</p>
+				<p>c) medium between two charges<img src="tick.png"></p>
+				<p>d) all of the given options</p></p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question3:The coulomb's force between the 2 point charges 10µC and 5µC placed at a distance of 150 cm is </div>
+				<p></p>
+				<p>a) 0.3 N <img src="tick.png"></p>
+				<p>b) 0.5 N </p>
+				<p>c) 2 N</p>
+				<p>d) 10 N</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question4: A positive and a negative charge are initially 4 cm apart. When they are moved closer together so that they are now only 1 cm apart, the force between them will be </div>
+				<p></p>
+				<p>a) 16 times larger than before<img src="tick.png"></p>
+				<p>b) 8 times larger than before</p>
+				<p>c) 4 times larger than before</p>
+				<p>d) 4 times smaller than before </p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question5: One thousand electrons, each of which carries a charge of $-1.6\times10^{-19}$coulomb are removed from an initially neutral pitch ball. The resulting charge on the pitch ball is </div>
+				<p></p>
+				<p>a) $1.6 \times10^{-15}$ coulomb <img src="tick.png"></p>
+				<p>b) $1.6 \times10^{-19}$ coulomb</p>
+				<p>c) "$-1.6 \times10^{15}$ coulomb</p>
+				<p>d) $-1.6 \times10^{-23}$ coulomb</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question6: Which one of the following is similar between electrostatic force and gravitational force?</div>
+				<p></p>
+				<p>a) Force can be attractive or repulsive</p>
+				<p>b) The force depends on the medium between the bodies</p>
+				<p>c) Both the forces are strong forces </p>
+				<p>d) Force is inversely proportional to the distance between the bodies<img src="tick.png"></p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question7: Which one of the following statement regarding electrostatics is wrong?</div>
+				<p></p>
+				<p>a) Charge is quantized</p>
+				<p>b) Charge is conserved</p>
+				<p>c) There is an electric field near an isolated charge at rest </p>
+				<p>d) A stationary charge produces both electric and magnetic fields<img src="tick.png"></p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question8: Two point Charges in air at a distance of 20 cm, from each other interact with a certain force. At what distance from each other should these charges be placed in oil of relative permittivity 5 to obtain the same force of interaction</div>
+				<p></p>
+				<p>a) $8.94 \times 10^{-2}$ m <img src="tick.png"></p>
+				<p>b) $0.894 \times 10^{-2}$ m </p>
+				<p>c) $89.4 \times 10^{-2}$ m</p>
+				<p>d) $8.94 \times 10^{-2}$ m</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>Given r = 0.2 m, $ ϵ_{r} $= 5<br>
+					Force between two charges in air <br>
+					$ F_{air} =\frac{q_{1} q_{2}}{4 \pi \epsilon_{0}r^{2}}$<br>
+					Force between two charges in oil of relative permittivity $ϵ_{r} = 5$<br>
+					$ F_{oil}=\frac{ q_{1} q_{2}}{4\pi \epsilon_{oil}r_{oil}^{2}}$<br>
+					$ F_{oil}=\frac{ q_{1} q_{2}}{4\pi \epsilon_{0}\epsilon_{r}r_{oil}^{2}}$<br>
+					We know $ϵ_{oil}=ϵ_{0} ϵ_{r}$<br>
+					$F_{air} = F_{oil}$<br>
+					$r_{oil}^{2} = \frac{r^{2}}{ϵ_{r}} = 8.94 × 10^{-2}m$<br>
+
+					</p>
+				</div>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question9: Two small balls having equal positive charge Q (Coulomb) on each are suspended by two insulating strings of equal length ‘L’ metre, from a hook fixed to a stand. The whole set up is taken in a satellite in to space where there is no gravity(state of weightlessness) then the angle(θ) between the two strings is</div>
+				<p></p>
+				<p>a) $0^{\circ}$ </p>
+				<p>b) $90^{\circ}$</p>
+				<p>c) $180^{\circ}$ <img src="tick.png"></p></p>
+				<p>d) $0^{\circ} < \theta < 180^{\circ}$ 
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question10: The force per unit charge is known as</div>
+				<p></p>
+				<p>a) Electric flux</p>
+				<p>b) Electric potential</p>
+				<p>c) Electric field <img src="tick.png"></p>
+				<p>d) Electric current</p>
+				
+			</div>
+
+		</div>
+    </div>
+  </section><!-- End Hero -->
+
+<script src="main.js"></script>
+
+	
+</body>
+
+</html>

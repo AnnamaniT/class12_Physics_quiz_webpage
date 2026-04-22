@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<version-1.0 add mathjax>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <title>Quiz</title>
+  
+   
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <!--  CSS Files -->
+  <link type='text/css' rel='stylesheet' href='style.css'/>
+<style>
+.imgRes{
+	width: 50%;
+   height: auto;
+}
+
+p{
+padding-left:25px;
+}
+</style>
+	
+  <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['$latex', '$'], ['\\(', '\\)']]},
+    startup: {
+      ready: function () {
+        MathJax.startup.defaultReady();
+      }
+    }
+  }
+  </script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+		
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+  <section id="hero" class="container-fluid" >
+    <div class="hero-container">
+		<div id='container'>
+			<div><h3>Quiz 4 Answers</h3><p type="button" class="tab btnDiv"><b>Solutions</b></p></div>
+			<div class="ansPageDiv">
+				<div>Question1: A unit Coulomb charge is one which when placed in air at a distance of 1 m from an equal and similar charge repel it with a force of</div>
+				<p></p>
+				<p>a) 1 N</p>
+				<p>b) $9 \times 10^{9}$ N <img src="tick.png"></p>
+				<p>c) 1 dyne (lost)</p>
+				<p>d) None of the options</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question2: Two point charges each of 20 µC are placed 50 cm apart in air. What is the electric field intensity at the midpoint on the line joining the centre of two point charges </div>
+				<p></p>
+				<p>a) $5 \times 10^{6} NC^{-1}$  </p>
+				<p>b) $18 \times 10^{6} NC^{-1}$</p>
+				<p>c) Zero<img src="tick.png"></p>
+				<p>d) None of these options</p></p>
+				<div class="tabcontent">
+					<p>Explanation</p>
+					<p>Given, both the charges are equal (20μC) and have same polarity (positive). The Electric field intensity at the centre due to these charges will be equal and opposite in direction hence cancels out.
+					</p>
+				</div>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question3: Two point charges are kept in a medium d distance apart. If the dielectric constant (permittivity) of the medium increases, the force between the charges ------- </div>
+				<p></p>
+				<p>a) Increases </p>
+				<p>b) Decreases<img src="tick.png"></p>
+				<p>c) Remains the same</p>
+				<p>d) None of the given  options</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question4: Three charges + 4q , + q and Q are placed on a straight line with equal separation. In order to make the net force on q to be zero, the value of Q will be: </div>
+				<p></p>
+				<p>a) +4q<img src="tick.png"></p>
+				<p>b) +2q</p>
+				<p>c) -3q</p>
+				<p>d) -4q</p>
+				<div class="tabcontent">
+					<p>Solution</p>
+					<p>Force on charge q due to the charge 4q is $F_{1} = \frac{4kq^{2}}{r^{2}}$<br>
+					Force on charge q due to the charge Q is $F_{2} = \frac{kQq}{r^{2}}$<br>
+					In order to make the net force on q to be zero, <br>
+					 F1 = F2<br>
+					$\frac{4kq^{2}}{r^{2}} = \frac{kQq}{r^{2}}$ <br>
+					$\Rightarrow Q = 4q$
+
+					</p>
+				</div>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question5: Electric filed is zero in case of a charged conducting shell </div>
+				<p></p>
+				<p>a) Beyond 10 meters </p>
+				<p>b) at any interior point<img src="tick.png"></p>
+				<p>c) at any outer point</p>
+				<p>d) Beyond 2 meters</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question6: Which of the following statements about the electric field lines is incorrect?</div>
+				<p></p>
+				<p>a) Electrostatic field lines cannot intersect</p>
+				<p>b) Electrostatic field lines cannot form closed loops</p>
+				<p>c) Electrostatic field lines must be normal to the surface of the conductor</p>
+				<p>d) Electrostatic field lines cannot originate from the positive charge<img src="tick.png"></p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question7: Two point charges A and B, having charges +Q and –Q respectively, are placed at certain distance apart and force acting between them is F. If 25% charge of A is transferred to B, then force between the charges becomes</div>
+				<p></p>
+				<p>a) 4F/3</p>
+				<p>b) F</p>
+				<p>c) 9F/16 <img src="tick.png"></p>
+				<p>d) 16F/9</p>
+				<div class="tabcontent">
+				<p>solution:</p>
+				<p>
+				Force before transfer of charges<br>
+				$F = \frac{kQ^{2}}{r^{2}}$<br>
+				After the transfer of 25% charge of A to B then,<br>
+				Charge at $A = Q - \frac{Q}{4} =\frac{3Q}{4}$<br>
+				Charge at $B = -Q+\frac{Q}{4}=\frac{-3Q}{4}$<br>
+				Force after the transfer of charges,<br>
+				$F' = \frac{k(\frac{3Q}{4})(\frac{-3Q}{4})}{r^{2}}$
+				$=\frac{9kQ^{2}}{16r^{2}}= \frac{9F}{16}$
+				</p>
+				</div>
+			</div>
+			<div class="ansPageDiv">
+				<div>Question8: The electric potential of earth is taken to be zero because earth is a good ---</div>
+				<p></p>
+				<p>a) Insulator </p>
+				<p>b) Conductor<img src="tick.png"></p>
+				<p>c) Semiconductor</p>
+				<p>d) Dielectric</p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question9: The unit of electric dipole moment is</div>
+				<p></p>
+				<p>a) Newton</p>
+				<p>b) Coulomb</p>
+				<p>c) Farad</p>
+				<p>d) Debye <img src="tick.png"></p>
+				
+			</div>
+			<div class="ansPageDiv">
+				<div>Question10: Electric field lines provide information about</div>
+				<p></p>
+				<p>a) field strength</p>
+				<p>b) direction</p>
+				<p>c) nature of charge</p>
+				<p>d) all of these given options<img src="tick.png"></p>
+				
+			</div>
+
+		</div>
+    </div>
+  </section><!-- End Hero -->
+<script>
+</script>
+
+<script src="main.js"></script>
+
+	
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+<link type='text/css' rel='stylesheet' href='style1.css'/>
+<style>
+.quizBtn div{
+display: inline-block;
+  vertical-align: middle;}
+</style>
+    <!--    Document Title-->
+    <title></title>
+	 <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['$latex', '$'], ['\\(', '\\)']]},
+    startup: {
+      ready: function () {
+        MathJax.startup.defaultReady();
+      }
+    }
+  }
+  </script>
+
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+		</script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	</head>
+
+
+<body >
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+
+
+        <div class="container">
+          <div class="row child">
+            <div class="col-md-11 col-lg-11 pt-8 text-md-start text-center">
+              <h4 class="fw-normal text-400"></h4>
+				<div id="fw-normal casestudy" class="quizBtn ">
+					<div class="quizIntro"><h3>Each quiz has 10 questions. All the best</h3><hr></div>
+					
+					<div class="quizDiv" >
+						<div class="btnquizpage center button" id='mq1'><a href='#' ><p><b><h2>Quiz 1</h2></b></p></a></div>
+						<div class="btnquizpage center button" id='mq2'><a href='#' ><p><b><h2>Quiz 2</h2></b></p></a></div>
+					
+					
+						<div class="btnquizpage center button" id='mq3'><a href='#' ><p><b><h2>Quiz 3</h2></b></p></a></div>
+						<div class="btnquizpage center button" id='mq4'><a href='#' ><p><b><h2>Quiz 4</h2></b></p></a></div>
+					
+					
+						<div class="btnquizpage center button" id='mq5'><a href='#' ><p><b><h2>Quiz 5</h2></b></p></a></div>
+						
+					</div>
+					
+					
+				
+				</div><br>
+				
+				<div id='container'>
+					<br/>
+					<div id='quiz'></div>
+					<div class='button' id='prev'><a href='#'>Prev</a></div>
+					<div class='button' id='next'><a href='#'>Next</a></div>
+					<div class="quizDiv">
+					<div class='button ' id='start'> <a href='#'>Restart</a></div>
+					<div class='button refreshBtn' id='refresh'> <a href='quizmainpage1.html'>Back to Quiz page</a></div>
+					</div>
+			
+				</div>
+				
+ 
+            </div>    
+		  </div>
+        </div>
+    </main>
+
+
+
+<script>
+
+$(document).ready(function() {
+
+
+	var btnClickId;
+	$('#refresh').hide();
+    $(".btnquizpage").click(function(e) {
+		e.preventDefault();
+		//var userName = window.AppInventor.getWebViewString();
+		var userName = "";
+	
+		btnClickId = this.id;
+		
+		
+		if(btnClickId == "mq1"){
+		var urlvalue1 = "answerspage1.html";
+		
+		$(".quizBtn").remove();
+		generateQuiz(quiz1, quiz, nextButton,prevButton,restartButton,urlvalue1, userName);
+		
+		}else if (btnClickId == "mq2"){
+		var urlvalue1 = "answerspage2.html";
+		$(".quizBtn").remove();
+		generateQuiz(quiz2, quiz, nextButton,prevButton,restartButton,urlvalue1, userName);
+		}else if(btnClickId == "mq3"){
+		var urlvalue1 = "answerspage3.html";
+		$(".quizBtn").remove();
+		generateQuiz(quiz3, quiz, nextButton,prevButton,restartButton,urlvalue1, userName);
+		}else if(btnClickId == "mq4"){
+		var urlvalue1 = "answerspage4.html";
+		$(".quizBtn").remove();
+		generateQuiz(quiz4, quiz, nextButton,prevButton,restartButton,urlvalue1, userName);
+		}else if(btnClickId == "mq5"){
+		var urlvalue1 = "answerspage5.html";
+		$(".quizBtn").remove();
+		generateQuiz(quiz5, quiz, nextButton,prevButton,restartButton,urlvalue1, userName);
+		}
+	});
+
+});
+</script>
+	<script src="main.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+	
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+</body>
+
+</html>
